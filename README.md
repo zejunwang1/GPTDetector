@@ -79,11 +79,11 @@ chatgpt-comparison-detection 是一个GitHub上的项目，开发人员来自多
 
 该项目提供了三个版本的检测器，且都支持中英文。检测器的模型权重在Hugging Face对应的链接中下载：https://huggingface.co/Hello-SimpleAI
 
-- QA version（问答版）：判断某个问题的回答是否由ChatGPT生成，使用 基于PTM（预训练语言模型）的分类器开发；
+- QA version（问答版）：判断某个问题的回答是否由ChatGPT生成，使用基于PTM（预训练语言模型）的分类器开发；
   
 - Single-text version（独立文本版）：判断单条文本是否由ChatGPT生成， 使用基于PTM（预训练语言模型）的分类器开发；
   
-- Linguistic version（语言学版）：判断单条文本是否由ChatGPT生成，使 用基于语言学特征的逻辑回归模型开发。
+- Linguistic version（语言学版）：判断单条文本是否由ChatGPT生成，使用基于语言学特征的逻辑回归模型开发。
   
 
 ### 小结
