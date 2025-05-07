@@ -4,7 +4,7 @@
 
 ChatGPT 是 OpenAI 2022 年 11 月推出的交互式自然语言对话模型，它能够像人类一样进行聊天交流，也让撰写邮件、论文、脚本，创作诗歌、故事等变得易如反掌。ChatGPT 发布后在业界引发了震动，甚至成功通过了谷歌的面试，收到了年薪 18 万美元的谷歌 L3 工程师的工作邀请。有学生试用 ChatGPT 来写作业和程序，并且老师很难分辨作业和程序是否为学生自己完成的。此外，学术界还出现了很多署名 ChatGPT 的待发表论文。
 
-本章对 ChatGPT 生成内容检测工具进行了调研，包括 OpenAI 推出的 [AI文本分类器](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text)、斯坦福大学研究团队提出的 [DetectGPT](https://github.com/eric-mitchell/detect-gpt)、普林斯顿小哥 Edward Tian 开发的 [GPTZero](https://gptzero.me/)、以及 Github 开源工具 [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection)。
+本项目对 ChatGPT 生成内容检测工具进行了调研，包括 OpenAI 推出的 [AI文本分类器](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text)、斯坦福大学研究团队提出的 [DetectGPT](https://github.com/eric-mitchell/detect-gpt)、普林斯顿小哥 Edward Tian 开发的 [GPTZero](https://gptzero.me/)、以及 Github 开源工具 [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection)。
 
 ### OpenAI 文本分类器
 
@@ -113,4 +113,8 @@ python gradio_demo.py --model gpt2-chinese-ai-text-classifier/ --port 9000
 ![](image/demo_1.png)
 
 ![](image/demo_2.png)
+
+## License
+
+This project is released under the [Apache License 2.0](https://github.com/zejunwang1/GPTDetector/blob/main/LICENSE).
 
